@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-03-03T23:10:55.622630",
+  "direction": "hold_long",
+  "strength": 0.3,
+  "confidence": 0.51,
+  "source": "CrossoverStrategy",
+  "signal_type": "bullish_trend",
+  "weight": 1.0,
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "original_confidence": 0.5,
+  "context": {
+    "timestamp": "2025-03-03T23:10:56.232705",
+    "timeframes": [
+      "15m",
+      "1h",
+      "4h"
+    ],
+    "patterns": [
+      "double_top",
+      "double_top",
+      "double_top",
+      "bullish_engulfing",
+      "bearish_engulfing",
+      "bearish_engulfing",
+      "bearish_engulfing",
+      "bullish_engulfing",
+      "bullish_engulfing",
+      "bearish_engulfing",
+      "bearish_engulfing",
+      "bearish_engulfing",
+      "bullish_divergence"
+    ],
+    "short_term_trend": "neutral",
+    "medium_term_trend": "neutral",
+    "volatility": "medium",
+    "momentum": "strong_bearish",
+    "similar_patterns": [
+      {
+        "similarity_score": 1.0000000000000004,
+        "timestamp": "2025-03-03T23:10:56.232705",
+        "short_term_trend": "neutral",
+        "patterns": [
+          "double_top",
+          "double_top",
+          "double_top"
+        ],
+        "success_rate": null
+      },
+      {
+        "similarity_score": 0.9697138034733315,
+        "timestamp": "2025-03-03T23:09:51.276091",
+        "short_term_trend": "neutral",
+        "patterns": [
+          "double_top",
+          "double_top",
+          "double_top"
+        ],
+        "success_rate": null
+      },
+      {
+        "similarity_score": 0.9697138034733315,
+        "timestamp": "2025-03-03T23:10:18.809982",
+        "short_term_trend": "neutral",
+        "patterns": [
+          "double_top",
+          "double_top",
+          "double_top"
+        ],
+        "success_rate": null
+      }
+    ]
+  },
+  "confidence_adjustment": 0.010000000000000002,
+  "confidence_factors": {
+    "current_patterns": [
+      "double_top",
+      "double_top",
+      "double_top",
+      "bullish_engulfing",
+      "bearish_engulfing",
+      "bearish_engulfing",
+      "bearish_engulfing",
+      "bullish_engulfing",
+      "bullish_engulfing",
+      "bearish_engulfing",
+      "bearish_engulfing",
+      "bearish_engulfing",
+      "bullish_divergence"
+    ],
+    "current_prices": {
+      "15m": 83139.4,
+      "1h": 83139.4,
+      "4h": 83139.4
+    },
+    "market_conditions": {
+      "volatility": "medium",
+      "momentum": "strong_bearish"
+    },
+    "key_levels": [
+      {
+        "type": "support",
+        "price": 79561.8,
+        "distance_percent": 4.3031342540359825,
+        "strength": 0.56
+      },
+      {
+        "type": "resistance",
+        "price": 89999.8,
+        "distance_percent": 8.251683317416303,
+        "strength": 0.8
+      }
+    ]
+  }
+}

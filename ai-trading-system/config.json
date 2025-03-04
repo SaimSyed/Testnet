@@ -1,0 +1,56 @@
+{
+    "exchange": {
+        "id": "binance",
+        "testnet": true,
+        "use_futures": true,
+        "api_key": "",
+        "api_secret": ""
+    },
+    "gemini": {
+        "api_key": "YOUR_ACTUAL_GEMINI_API_KEY",
+        "model": "gemini-2.0-flash"
+    },
+    "rag": {
+        "context_db_path": "data/context_db",
+        "vector_db_path": "data/vector_db",
+        "signal_db_path": "data/signals",
+        "timeframes": ["15m", "1h", "4h"],
+        "lookback_periods": 100,
+        "context_retention_days": 30,
+        "min_similarity_score": 0.5,
+        "max_contexts": 5
+    },
+    "trading": {
+        "default_confidence": 0.5,
+        "min_confidence_for_trade": 0.65,
+        "base_currency": "USDT",
+        "symbols": ["BTC/USDT", "ETH/USDT"],
+        "max_open_positions": 3
+    },
+    "risk_management": {
+        "account_balance": 10000,
+        "risk_per_trade": 0.02,
+        "max_position_size": 0.2,
+        "position_sizing_method": "fixed_risk",
+        "stop_loss_atr_multiplier": 2.5,
+        "max_portfolio_risk": 0.06
+    },
+    "backtesting": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "initial_balance": 10000,
+        "fee_rate": 0.001
+    },
+    "notifications": {
+        "enable_email": false,
+        "enable_telegram": false,
+        "email": "",
+        "telegram_bot_token": "",
+        "telegram_chat_id": ""
+    },
+    "logging": {
+        "level": "INFO",
+        "log_to_file": true,
+        "log_file_path": "logs/trading.log"
+    }
+}
