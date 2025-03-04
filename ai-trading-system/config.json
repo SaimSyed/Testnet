@@ -3,11 +3,11 @@
         "id": "binance",
         "testnet": true,
         "use_futures": true,
-        "api_key": "",
-        "api_secret": ""
+        "api_key": "3OABX7s3GKd3gBLHYdr6C4Nn17cdEKnMWxqaoAVE0SQmrOM7bNKh10vcgbYleU35",
+        "api_secret": "RPNEMLQ3NLH2yD45Ctqugfx7YL8Pfv1RVrnTnxsixMCiW8ly8ipIcxTExKPE2ClL"
     },
     "gemini": {
-        "api_key": "YOUR_ACTUAL_GEMINI_API_KEY",
+        "api_key": "AIzaSyA1Xw35YWUkpH8nYCczz8mv2cpLsVfPlwI",
         "model": "gemini-2.0-flash"
     },
     "rag": {
